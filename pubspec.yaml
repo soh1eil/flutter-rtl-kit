@@ -1,0 +1,27 @@
+name: flutter_rtl_kit
+description: >-
+  First-class RTL toolkit for Persian and Arabic Flutter apps: Jalali calendar,
+  digit conversion, text normalisation, bidi safety, auto-direction widgets.
+version: 0.1.0
+homepage: https://github.com/soh1eil/flutter_rtl_kit
+repository: https://github.com/soh1eil/flutter_rtl_kit
+issue_tracker: https://github.com/soh1eil/flutter_rtl_kit/issues
+topics:
+  - rtl
+  - persian
+  - jalali
+  - bidi
+  - i18n
+
+environment:
+  sdk: ^3.3.0
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

@@ -101,8 +101,9 @@ class RtlNumberFormat {
     }
     final neg = value < 0;
     final fixed = value.abs().toStringAsFixed(maxDecimals);
-    if (fixed.contains('e'))
+    if (fixed.contains('e')) {
       return convertDigits(value.toString(), symbols.digits);
+    }
     final parts = fixed.split('.');
     var intPart = parts[0];
     var frac = parts.length > 1 ? parts[1] : '';
